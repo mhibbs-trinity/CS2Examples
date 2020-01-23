@@ -97,6 +97,11 @@ project/plugins/project/
 !.vscode/launch.json
 !.vscode/extensions.json
 
+### Metals ###
+.bloop/*
+*.code-workspace
+project/metals.sbt
+
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 
