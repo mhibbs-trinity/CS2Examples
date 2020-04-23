@@ -66,13 +66,13 @@ class SetTester {
     }
     val diff = s.difference(t)
     assertTrue(diff.size == 5)
-    /*
+    
     for (i <- 2 to 10 by 2) {
       assertTrue(!diff.contains(i))
     }
     for (i <- 1 to 9 by 2) {
       assertTrue(diff.contains(i))
-    }*/
+    }
   }
 
   @Test def checkUnion() {
